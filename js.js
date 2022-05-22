@@ -17,8 +17,6 @@ $("#envio").on("click", function (eve) {
       $('.titulo').html(`<h1>${result.title}</h1>`);
       $('.txtImagem').html(`${result.explanation}`);
       $('.img').html(`<img src='${result.url}'>`);
-    
-      if()
     },
 
     error: function () {
